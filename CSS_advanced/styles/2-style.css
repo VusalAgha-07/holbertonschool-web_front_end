@@ -1,0 +1,14 @@
+/* Body and links text color */
+body, a {
+    color: #161616;
+}
+
+/* Hide visually-hidden elements */
+.visually-hidden {
+    display: none;
+}
+
+/* Set color for card-category and section-tagline */
+.card-category, .section-tagline {
+    color: #D73953;
+}
