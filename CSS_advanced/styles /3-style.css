@@ -1,0 +1,23 @@
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+}
+
+/* Body and links use the text-color variable */
+body, a {
+    color: var(--text-color);
+}
+
+/* Hide visually-hidden elements */
+.visually-hidden {
+    display: none;
+}
+
+/* Set color using the primary color variable */
+.card-category, .section-tagline {
+    color: var(--color-primary);
+}
