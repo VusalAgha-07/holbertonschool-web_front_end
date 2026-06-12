@@ -107,7 +107,6 @@ button,
     --section-title-color: var(--color-black);
 }
 
-/* Universal box-sizing rule */
 *,
 *:before,
 *:after {
