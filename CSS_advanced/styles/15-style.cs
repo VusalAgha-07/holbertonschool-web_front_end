@@ -73,7 +73,17 @@ button,
 }
 
 /* =========================
-   YOUR CSS (from 14-style.css)
+   BOX SIZING RULE (NEW)
+   ========================= */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* =========================
+   YOUR CSS
    ========================= */
 
 :root {
@@ -105,12 +115,6 @@ button,
 
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
-}
-
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
 }
 
 html {
