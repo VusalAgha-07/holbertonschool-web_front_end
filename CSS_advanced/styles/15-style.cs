@@ -108,7 +108,9 @@ button,
 }
 
 /* Universal box-sizing rule */
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
 }
 
